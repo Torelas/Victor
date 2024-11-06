@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+        <fieldset>
+        <legend>Dados pesooais</legend>    
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Nome completo" maxlength="7" riquired autocomplete="name" >
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"placeholder ="exemplo@exemplo.com" autocomplete="email" >
+            <br> <br>
+            <label for="Senha">Senha:</label>
+            <input type="password" id="Senha" maxlength="12" minlength="8"  >
+            <br><br>
+            <label for="Senha2"> Repita a Senha:</label>
+            <input type="password" id="Senha2">
+            <br><br>
+            
+            <label for="nascimento"> Data de nascimento</label>
+            <input type="date" id="nascimento">
+            <br><br>
+            <label for="filhos"> Quantidade de filhos</label>
+            <input type="number" id="filhos" min="0" max="20" width="50">
+            <br><br>
+            
+            <label for="foto">Foto de perfil:</label>
+             <input type="file" accept=".jpg , .pdf">
+            
+             <br> <br>
+             <label for="cor">Cor favorita:</label>
+             <input type="color" id="cor" value="#ffeee0" >
+             <br><br>
+             <label for="Objetivo">Objetivo</label>
+             <textarea  id="" cols="30" rows="10" maxlength="50" spellcheck="true"></textarea>
+        </fieldset>
+        
+        <br> <br>
+
+
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="logradouro">Logradouro</label>
+            <select  id="Logradouro">
+                <option value=""  disabled selected >Selecione uma opção</option>
+                <option value="Bairro">Bairro</option>
+                <option value="Quadra">Quadra</option>
+                <option value="Sitio">Sitio</option>
+            </select>
+
+            <br> <br>
+            
+        </fieldset>
+        
+        
+        
+        <fieldset>
+            
+            <legend>Experiencias</legend>
+            <label for="gogoboy">
+
+                <input type="checkbox" value="Gogo boy"
+                id="gogoboy"
+                >
+                Gogo Boy
+            </label>
+
+            <input type="checkbox" value="Gogo boy"
+                id="gogoboy"
+                >
+                Gogo Boy
+            </label>
+
+
+            <label for="gogoboy"> gogo boy</label>
+            <input type="checkbox" value="Garoto de progrma" id="garotodeprogramas">
+
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend> Termos</legend>
+            <label for="termos">
+            <input type="checkbox" id="termos">
+            Voce aceita os termos e condiçoes de site?
+         </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Estado civil</legend>
+            <label for="1estado">
+                <input type="radio" value="casado" name="1estado">
+                casado
+            </label>
+
+            
+            <label for="estado2">
+                <input type="radio" value="viuvo" name="estado2">
+                viuvo
+            </label>
+
+            <label for="estado3">
+                <input type="radio" value="solteiro" name="estado3">
+                solteiro
+            </label>
+            
+
+        </fieldset>
+
+
+
+
+        
+        
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button>Enviar</button>
+
+    </form>
+    
+</body>
+</html>

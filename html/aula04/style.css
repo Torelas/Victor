@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+    @font-face {
+      font-family: "capture it";  
+        src:url( ./Capture\ it.ttf); 
+    }
+    
+    /*
+        comentario css
+        */
+        h1 {
+
+            font-family: "Kablammo", "fantasy";
+
+            }
+        h2 {
+            font-family: monospace;
+            color: blue;
+
+            text-align: center;
+        }
+         p {
+            font-family: sans-serif;
+            text-align: justify;
+            line-height: 30px;
+            /* letter-spacing: 10px; */
+            /* word-spacing: 20px; */
+            text-indent: 50px;
+            /* text-indet e pra paragrafo */
+
+
+         }
+
+         h3 { 
+            font-family: cursive ;
+            text-transform: capitalize;
+         }
+         h4 {
+            font-family: fantasy;
+            text-shadow: 1px 2px 15px orange;
+            font-size: 36px;
+            color: green;
+         }
+
+        
+
+
+         a {
+            text-decoration-line:underline;
+            text-decoration-style: wavy;
+            text-decoration-color: blue;
+            color: rgb(66, 18, 26);
+            font-size: 40px;
+
+
+         }
+         body {
+            background-color: rgb(82, 104, 138);
+            background-image: url(bob-esponja.jfif);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-blend-mode: luminosity;
+         }
+
+    
